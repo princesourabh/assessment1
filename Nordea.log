@@ -1,0 +1,190 @@
+2021-07-16 01:01:13.683  INFO 21964 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 21964 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:01:13.707  INFO 21964 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:01:16.917  INFO 21964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:01:16.958  INFO 21964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:01:16.960  INFO 21964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:01:17.406  INFO 21964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:01:17.407  INFO 21964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3541 ms
+2021-07-16 01:01:18.288  INFO 21964 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ee6d5384-78f9-4d81-b2d5-77f0b218a393
+
+2021-07-16 01:01:18.502  INFO 21964 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d299393, org.springframework.security.web.context.SecurityContextPersistenceFilter@76e3b45b, org.springframework.security.web.header.HeaderWriterFilter@5792c08c, org.springframework.security.web.csrf.CsrfFilter@23da79eb, org.springframework.security.web.authentication.logout.LogoutFilter@2dbc408c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c184d4d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@991cbde, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5f34907b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65e22def, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75023c53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e13f156, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b4d4327, org.springframework.security.web.session.SessionManagementFilter@54c622a7, org.springframework.security.web.access.ExceptionTranslationFilter@da28d03, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@220c9a63]
+2021-07-16 01:01:18.701  INFO 21964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:01:18.716  INFO 21964 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 5.968 seconds (JVM running for 6.986)
+2021-07-16 01:01:18.719  INFO 21964 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:02:19.838  INFO 21964 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:03:16.613  INFO 18184 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 18184 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:03:16.621  INFO 18184 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:03:19.803  INFO 18184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:03:19.840  INFO 18184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:03:19.842  INFO 18184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:03:20.172  INFO 18184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:03:20.173  INFO 18184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3429 ms
+2021-07-16 01:03:21.470  INFO 18184 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 348ce37a-c027-45ab-8c51-a6392916ebf2
+
+2021-07-16 01:03:21.940  INFO 18184 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@629984eb, org.springframework.security.web.context.SecurityContextPersistenceFilter@f8a6243, org.springframework.security.web.header.HeaderWriterFilter@7c281eb8, org.springframework.security.web.csrf.CsrfFilter@343e225a, org.springframework.security.web.authentication.logout.LogoutFilter@10b4e7f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@535b1ae6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@75023c53, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b1e5e55, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7161457, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1727e03a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e05586b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c1d59cd, org.springframework.security.web.session.SessionManagementFilter@29be997f, org.springframework.security.web.access.ExceptionTranslationFilter@fe87ddd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17b016ac]
+2021-07-16 01:03:22.459  INFO 18184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:03:22.491  INFO 18184 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 7.013 seconds (JVM running for 7.792)
+2021-07-16 01:03:22.497  INFO 18184 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:03:53.597  INFO 18184 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:03:53.815  INFO 18184 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:04:10.750  INFO 18184 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:04:29.933  INFO 12144 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 12144 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:04:29.938  INFO 12144 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:04:31.956  INFO 12144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:04:31.979  INFO 12144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:04:31.980  INFO 12144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:04:32.191  INFO 12144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:04:32.192  INFO 12144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2174 ms
+2021-07-16 01:04:33.124  INFO 12144 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 519ed0d8-6685-42cf-9f99-96fe427a3403
+
+2021-07-16 01:04:33.337  INFO 12144 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bc7db89, org.springframework.security.web.context.SecurityContextPersistenceFilter@45545e7a, org.springframework.security.web.header.HeaderWriterFilter@23da79eb, org.springframework.security.web.csrf.CsrfFilter@36f7d7b, org.springframework.security.web.authentication.logout.LogoutFilter@630bf683, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b482cbf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22d322f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@479ac2cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ec63f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1da4b3f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e190ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@220c9a63, org.springframework.security.web.session.SessionManagementFilter@3e05586b, org.springframework.security.web.access.ExceptionTranslationFilter@1727e03a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66a53104]
+2021-07-16 01:04:33.594  INFO 12144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:04:33.613  INFO 12144 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 4.564 seconds (JVM running for 5.407)
+2021-07-16 01:04:33.616  INFO 12144 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:04:55.040  INFO 12144 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:04:55.228  INFO 12144 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:06:58.051  INFO 12144 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:07:32.439  INFO 41352 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 41352 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:07:32.447  INFO 41352 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:07:35.339  INFO 41352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:07:35.367  INFO 41352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:07:35.368  INFO 41352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:07:35.660  INFO 41352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:07:35.661  INFO 41352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3113 ms
+2021-07-16 01:07:37.426  INFO 41352 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d2cdcbdb-60c4-41ab-9f54-bb901500c617
+
+2021-07-16 01:07:37.817  INFO 41352 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@479ac2cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@9f674ac, org.springframework.security.web.header.HeaderWriterFilter@168b4cb0, org.springframework.security.web.csrf.CsrfFilter@60aec68a, org.springframework.security.web.authentication.logout.LogoutFilter@22d322f5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@661fe025, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@65afeb6d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@220c9a63, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@66223d94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23cbbd07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@383c3eb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55b5cd2b, org.springframework.security.web.session.SessionManagementFilter@35b17c06, org.springframework.security.web.access.ExceptionTranslationFilter@7f9e8421, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d229b1c]
+2021-07-16 01:07:38.156  INFO 41352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:07:38.190  INFO 41352 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 6.748 seconds (JVM running for 7.621)
+2021-07-16 01:07:38.196  INFO 41352 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:08:02.684  INFO 41352 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:08:02.883  INFO 41352 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:08:21.896  INFO 41352 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:08:41.817  INFO 29656 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 29656 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:08:41.826  INFO 29656 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:08:44.404  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:08:44.427  INFO 29656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:08:44.428  INFO 29656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:08:44.646  INFO 29656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:08:44.647  INFO 29656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2682 ms
+2021-07-16 01:08:45.582  INFO 29656 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 064b5023-18fe-4ed1-b27c-d2dd6c3404ed
+
+2021-07-16 01:08:45.830  INFO 29656 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7161457, org.springframework.security.web.context.SecurityContextPersistenceFilter@29be997f, org.springframework.security.web.header.HeaderWriterFilter@fe87ddd, org.springframework.security.web.csrf.CsrfFilter@4fb04a72, org.springframework.security.web.authentication.logout.LogoutFilter@37348491, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@415ef4d8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76e3b45b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38ee7a9d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b482cbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f8a6243, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23da79eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629984eb, org.springframework.security.web.session.SessionManagementFilter@7c281eb8, org.springframework.security.web.access.ExceptionTranslationFilter@79696332, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e5beb8a]
+2021-07-16 01:08:46.060  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:08:46.083  INFO 29656 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 5.224 seconds (JVM running for 6.138)
+2021-07-16 01:08:46.088  INFO 29656 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:09:34.972  INFO 29656 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:10:00.991  INFO 33980 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 33980 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:10:00.996  INFO 33980 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:10:03.066  INFO 33980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:10:03.088  INFO 33980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:10:03.089  INFO 33980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:10:03.275  INFO 33980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:10:03.276  INFO 33980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2192 ms
+2021-07-16 01:10:04.107  INFO 33980 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5b64b8e1-8941-46a3-90f0-3aeafea093a0
+
+2021-07-16 01:10:04.395  INFO 33980 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bc7db89, org.springframework.security.web.context.SecurityContextPersistenceFilter@45545e7a, org.springframework.security.web.header.HeaderWriterFilter@23da79eb, org.springframework.security.web.csrf.CsrfFilter@36f7d7b, org.springframework.security.web.authentication.logout.LogoutFilter@630bf683, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b482cbf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22d322f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@479ac2cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ec63f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1da4b3f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e190ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@220c9a63, org.springframework.security.web.session.SessionManagementFilter@3e05586b, org.springframework.security.web.access.ExceptionTranslationFilter@1727e03a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66a53104]
+2021-07-16 01:10:04.683  INFO 33980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:10:04.714  INFO 33980 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 4.646 seconds (JVM running for 5.45)
+2021-07-16 01:10:04.719  INFO 33980 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:10:50.181  INFO 33980 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:11:38.120  INFO 25844 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 25844 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:11:38.130  INFO 25844 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:11:41.937  INFO 25844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:11:42.000  INFO 25844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:11:42.004  INFO 25844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:11:42.507  INFO 25844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:11:42.508  INFO 25844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4155 ms
+2021-07-16 01:11:43.859  INFO 25844 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4b6c4b72-2f15-48ae-acf5-e16a0f1e2666
+
+2021-07-16 01:11:44.221  INFO 25844 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@220c9a63, org.springframework.security.web.context.SecurityContextPersistenceFilter@1da4b3f9, org.springframework.security.web.header.HeaderWriterFilter@3e05586b, org.springframework.security.web.csrf.CsrfFilter@25a7fedf, org.springframework.security.web.authentication.logout.LogoutFilter@65afeb6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7161457, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6723610b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@55b5cd2b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2bc7db89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@448b808a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20ab76ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40bb4f87, org.springframework.security.web.session.SessionManagementFilter@45545e7a, org.springframework.security.web.access.ExceptionTranslationFilter@23da79eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f825516]
+2021-07-16 01:11:44.524  INFO 25844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:11:44.549  INFO 25844 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 7.944 seconds (JVM running for 8.62)
+2021-07-16 01:11:44.554  INFO 25844 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:12:04.216  INFO 25844 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:12:22.885  INFO 42444 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 42444 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:12:22.891  INFO 42444 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:12:25.203  INFO 42444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:12:25.224  INFO 42444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:12:25.225  INFO 42444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:12:25.409  INFO 42444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:12:25.409  INFO 42444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2398 ms
+2021-07-16 01:12:26.255  INFO 42444 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a388fc08-a40f-4b92-a3d0-c0b1334690e3
+
+2021-07-16 01:12:26.497  INFO 42444 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bc7db89, org.springframework.security.web.context.SecurityContextPersistenceFilter@45545e7a, org.springframework.security.web.header.HeaderWriterFilter@23da79eb, org.springframework.security.web.csrf.CsrfFilter@36f7d7b, org.springframework.security.web.authentication.logout.LogoutFilter@630bf683, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b482cbf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22d322f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@479ac2cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ec63f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1da4b3f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e190ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@220c9a63, org.springframework.security.web.session.SessionManagementFilter@3e05586b, org.springframework.security.web.access.ExceptionTranslationFilter@1727e03a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66a53104]
+2021-07-16 01:12:26.693  INFO 42444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:12:26.716  INFO 42444 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 4.798 seconds (JVM running for 5.764)
+2021-07-16 01:12:26.720  INFO 42444 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:12:35.713  INFO 42444 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:12:35.826  INFO 42444 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:12:45.752  INFO 42444 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:13:39.376  INFO 32012 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 32012 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:13:39.381  INFO 32012 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:13:41.523  INFO 32012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:13:41.555  INFO 32012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:13:41.556  INFO 32012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:13:41.779  INFO 32012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:13:41.779  INFO 32012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2304 ms
+2021-07-16 01:13:42.730  INFO 32012 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 07ab6974-fc0c-4e54-8c87-22c098b50c46
+
+2021-07-16 01:13:43.037  INFO 32012 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7161457, org.springframework.security.web.context.SecurityContextPersistenceFilter@29be997f, org.springframework.security.web.header.HeaderWriterFilter@fe87ddd, org.springframework.security.web.csrf.CsrfFilter@4fb04a72, org.springframework.security.web.authentication.logout.LogoutFilter@37348491, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@415ef4d8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76e3b45b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38ee7a9d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b482cbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f8a6243, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23da79eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629984eb, org.springframework.security.web.session.SessionManagementFilter@7c281eb8, org.springframework.security.web.access.ExceptionTranslationFilter@79696332, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e5beb8a]
+2021-07-16 01:13:43.254  INFO 32012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:13:43.273  INFO 32012 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 4.778 seconds (JVM running for 5.538)
+2021-07-16 01:13:43.276  INFO 32012 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:13:57.135  INFO 32012 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:13:57.238  INFO 32012 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:14:55.482  INFO 32012 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
+2021-07-16 01:18:25.649  INFO 30288 --- [main] com.nordea.NordeaApplication             : Starting NordeaApplication using Java 16.0.1 on WN10245 with PID 30288 (C:\Users\m84969\sourabh\code_vxsp\Nordea\target\classes started by M84969 in C:\Users\m84969\sourabh\code_vxsp\Nordea)
+2021-07-16 01:18:25.654  INFO 30288 --- [main] com.nordea.NordeaApplication             : No active profile set, falling back to default profiles: default
+2021-07-16 01:18:28.097  INFO 30288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-16 01:18:28.132  INFO 30288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-16 01:18:28.133  INFO 30288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-16 01:18:28.410  INFO 30288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-16 01:18:28.411  INFO 30288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2652 ms
+2021-07-16 01:18:29.814  INFO 30288 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1180d7b5-639f-400c-9a1a-02fcac91204c
+
+2021-07-16 01:18:30.119  INFO 30288 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bc7db89, org.springframework.security.web.context.SecurityContextPersistenceFilter@45545e7a, org.springframework.security.web.header.HeaderWriterFilter@23da79eb, org.springframework.security.web.csrf.CsrfFilter@36f7d7b, org.springframework.security.web.authentication.logout.LogoutFilter@630bf683, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b482cbf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22d322f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@479ac2cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ec63f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1da4b3f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e190ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@220c9a63, org.springframework.security.web.session.SessionManagementFilter@3e05586b, org.springframework.security.web.access.ExceptionTranslationFilter@1727e03a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66a53104]
+2021-07-16 01:18:30.323  INFO 30288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-16 01:18:30.343  INFO 30288 --- [main] com.nordea.NordeaApplication             : Started NordeaApplication in 5.641 seconds (JVM running for 6.443)
+2021-07-16 01:18:30.347  INFO 30288 --- [main] c.n.controller.MyExecutionController     : Input statements needed to produce xml/csv.Once you are done. Enter "nordea sourabh" to see the xml and csv 
+2021-07-16 01:19:07.158  INFO 30288 --- [main] c.n.controller.MyExecutionController     : Statements execution in progress...
+2021-07-16 01:19:07.348  INFO 30288 --- [main] c.n.controller.MyExecutionController     : 
+ Statements execution completed.
+ To execute again enter the input lines again.
+ Then Enter "nordeasourabh" to see the xml and csv or end the process
+2021-07-16 01:20:12.662  INFO 30288 --- [main] com.nordea.NordeaApplication             : Nordea Application Exit
