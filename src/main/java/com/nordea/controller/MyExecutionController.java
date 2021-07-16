@@ -65,7 +65,7 @@ public class MyExecutionController implements CommandLineRunner{
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));   //Read all input
 			while ((inputLine = br.readLine()) != null) {
 
-				Pattern re = Pattern.compile("[^.!?\\s][^.!?]*(?:[.!?](?!['\"]?\\s|$)[^.!?]*)*[.!?]?['\"]?(?=\\s|$)", Pattern.MULTILINE | Pattern.COMMENTS);
+				Pattern re = Pattern.compile("[^.!?\\s][^.!?]*(?:[.!?](?!['\"]?\\s|$)[^.!?]*)*[.!?]?['\"]?(?=\\s|$)", Pattern.MULTILINE | Pattern.COMMENTS);   //original
 				
 				Matcher reMatcher = re.matcher(inputLine);
 				while (reMatcher.find()) {

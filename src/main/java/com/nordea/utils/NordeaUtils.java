@@ -20,14 +20,6 @@ import com.nordea.model.Sentence;
 @Component
 public class NordeaUtils {
 	
-//	@Value("${specialChar}")
-//	String specialChar;
-//	
-//	@Value("${charSpace}")
-//	String charSpace;
-//	
-//	@Value("${extraSpace}")
-//	String extraSpace;
 
 	private static Logger LOG = LoggerFactory.getLogger(NordeaUtils.class);
 
@@ -46,17 +38,21 @@ public class NordeaUtils {
 	}
 	
 	
-	public Sentence getStatementObject(String[] token, Sentence sentence) throws JAXBException, FileNotFoundException {
+	public Sentence getStatementObject(String[] inputStatement, Sentence sentence) throws JAXBException, FileNotFoundException {
 		LOG.debug("convertObjectToXMLinput");
-		List<String> word = new ArrayList<String>();
-	    sentence = new Sentence();
-		int i = 1;
-		while (i < token.length) {
-			word.add(token[i]);
-			i++;
-		}
-		sentence.setWord(word);
+		try {
+			List<String> word = new ArrayList<String>();
+			sentence = new Sentence();
+			int i = 1;
+			while (i < inputStatement.length) {
+				word.add(inputStatement[i]);
+				i++;
+			}
+			sentence.setWord(word);
 
+		} catch (Exception e) {
+			LOG.error("Error in getStatementObject :" + e.getMessage());
+		}
 		return sentence;
 	}
 	
